@@ -1,0 +1,17 @@
+div.sticky {
+    clear: both;
+    position: -webkit-sticky;
+    position: sticky;
+    bottom: 0%;
+    background-color: #777777;
+    text-align: center;
+    border-style: solid;
+    border-right: hidden;
+    border-left: hidden;
+    border-bottom: hidden;
+    border-width: 5px;
+    border-color: #4aaaa5;
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
