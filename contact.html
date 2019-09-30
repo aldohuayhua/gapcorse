@@ -10,15 +10,29 @@
     <link rel="stylesheet" href="assets/css/style_contact.css">
 </head>
 
-<header class="main_header">
-    <h1>Aldo Huayhua</h1>
-    <h2> <a href="index.html"; class="about">About</a> </h2>
-    <h3> <a href="portfolio.html"; class="portfolio">Portfolio</a>  </h3>
-    <h4> <a href="contact.html"; class="contact_headline" >Contact</a> </h4>
-
-</header>
 
 <body>
+    <!-- row containing nav bar seen when on 768px and 980px -->
+    <div class="row">
+        <div class="headline">
+            <h1 id="headline_name">Aldo Huayhua</h1>
+            <a href="index.html" ; id="headline_about">About</a>
+            <a href="portfolio.html" ; id="headline_portfolio">Portfolio</a>
+            <a href="contact.html" ; id="headline_contact">Contact</a>
+        </div>
+    </div>
+    <!-- row containing nav bar when 640px -->
+    <div class="row">
+        <h1 id="headline_name_2">Aldo Huayhua</h1>
+    </div>
+    <div class="row">
+        <div class="headline_2">
+            <a href="index.html" ; id="headline_about_2">About</a>
+            <a href="portfolio.html" ; id="headline_portfolio_2">Portfolio</a>
+            <a href="contact.html" ; id="headline_contact_2">Contact</a>
+        </div>
+    </div>
+<!-- main contact article -->
     <div class="article">
         <div class="contact">Contact</div>
         <form>
@@ -35,9 +49,7 @@
     </div>
     </form>
 </body>
-<footer>
-    <br>
-    <p> Copyright © </p>
-</footer>
+<!-- sticky footer, works ok -->
+<div class="sticky">Copyright ©</div>
 
 </html>
